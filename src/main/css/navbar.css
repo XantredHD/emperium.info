@@ -1,0 +1,85 @@
+
+/*This gets rid of the ugly underline on links and I place it here so its on every page*/
+a {
+  text-decoration: none;
+}
+
+/*Adds The Yellow Bar on the right
+ * fixxes the navbars position
+ * sets the width to 100px
+ * sets the height of the navbar
+ */
+#navbar{
+  border-left: 5px solid   #e4d716;
+  flex: center;
+  position: fixed;
+  width: 100px;
+  height: 57vh;
+  z-index: 10;
+}
+
+
+
+/* A Container for all the links in the nav bar
+ * Make the nav bar display vertically
+ */
+#navbarIcons{
+  display: flex;
+  flex-direction: column;
+}
+
+/* This distingueses the current page to the users
+ * Draws a green line by the selected page
+ */
+.selected{
+  border-right: 5px solid   #006d05;
+  border-radius: 30px;
+}
+
+
+/* Sets the width of the link tags to 0*/
+#navbarIcons a{
+  width: 0;
+}
+
+/* Targets the Images in the navBarLinks
+ * For the page to load with the navbar hidden we set the width of
+    the images to 0 and also set their max-width so they don't take over the screen
+    and set their height to be relative to the view port
+ */
+#navbarIcons img{
+  width: 0px;
+  max-width: 100px;
+  height: 13vh
+}
+
+
+/*To display the name of the link your hovering over we use tool tips*/
+
+/* Tooltip text and Tool Tip Container
+ * To make the tooltip hidden untill hovered over we set the visibilty to hidden
+ * We set their width so they display correctly
+ * we set their background color so they can be seen properly
+ * we set their text color to white
+ * position to absolute so they display with the fixxed navbar div
+ *
+ */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/*Enlarges the navbar icons when hovered over*/
+.tooltip:hover img{
+  transform: scale(1.3) rotate(0deg) translateX(10px);
+}

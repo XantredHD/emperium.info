@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Emperium</title>
+</head>
+
+<body>
+
+    <!--Container of the page-->
+    <!--The Decided Width for this will be 1366px-->
+    <div id="container">
+
+
+
+
+        <!-- Navigation Bar-->
+        <div onmouseover="makeNavBarVisible();" onmouseout="hideNavBar();" id="navbar">
+            <div id="navbarIcons">
+                <!--Icons-->
+
+                <a class="tooltip" href="home.html">
+                    <img id="icon" class="selected" src="./emperium-icon-small.gif">
+                    <span class="tooltiptext">Home Page</span>
+                    </img>
+                </a>
+                <!--Link To Omega Utility Page-->
+                <a class="tooltip" href="omega-utility.html">
+                    <img id="icon" class="notSelected" src="./goodwillomega.png">
+                    <span class="tooltiptext">Omega Utility</span>
+                    </img>
+                </a>
+                <!--Link to Texture Pack Page-->
+                <a class="tooltip" href="texture-packs.html">
+                    <img id="icon" class="notSelected" src="./pack.png">
+                    <span class="tooltiptext">Texture Packs</span>
+                    </img>
+                </a>
+                <!--Discord-->
+                <a class="tooltip" href="discord-page.html">
+                    <img id="icon" class="notSelected" src="./discord.png">
+                    <span class="tooltiptext">Discord Info</span>
+                    </img>
+                </a>
+            </div>
+        </div>
+
+
+        <!--Main Icon at The Top-->
+        <div id="mainIconContainer">
+            <img id="mainIcon" id="icon" src="./emperium-icon-small.gif" />
+        </div>
+
+
+        <!--About Information and Title -->
+        <div id="header">
+            <h1 id="titleHeader">The Emperium</h1>
+            <div class="line" />
+            <h1 id="about">About us</h1>
+            <div class="lineThin lineWidthHalf"></div>
+            <h3>The emperium is the premiere group on 2b and one of the oldest groups on the server.</h3>
+            <h3>Most people know about us from our spawn presence or our involvement in the incursions, but we’re much more than just a PvP group.</h3>
+            <h3> We’ve organized incursions, single handedly lead the purge and created numerous clients and bots all while making some of the best and biggest bases on 2b.</h3>
+            <h3>The Emperium has three main focus’ on 2b building, pvp, and coding. Many of our more notable accomplishments on these three focus’ are on this website.</h3>
+        </div>
+        <div class="spaceer"></div>
+        <!--About Div-->
+        <div id="content">
+
+
+            <!--Building-->
+            <div id="building">
+                <h1>Building</h1>
+                <div class="line lineWidthQuarter"></div>
+                <div class="spaceer"></div>
+
+
+                <!--Empires Edge Section-->
+                <h2>Empires Edge
+                    <div class="lineThin lineWidthHalf" />
+                </h2>
+                <div class="infoDiv">
+
+                   <!--Fit Video-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ortXHFV4iVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                    </iframe>
+                    <div class="spaceer"></div>
+
+                    <!--Photos-->
+                    <div class="aboutImage">
+                        <img src="./empiresedge.jpg">
+                        <h6>Photo by: Unknown</h6>
+                    </div>
+                </div>
+                <div class="spaceer"></div>
+
+
+
+
+
+                <!--Christmas Base Section-->
+                <h2>2019 Christmas Base
+                    <div class="lineThin lineWidthHalf" />
+                </h2>
+                <div class="infoDiv">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jNTU3n3MARQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+
+
+                    <div class="spaceer"></div>
+                    <!--Photo by MTNL-->
+                    <div class="aboutImage">
+                        <img src="./shaderschristmasmtnl.png">
+                        <h6>Photo by: MTNL</h6>
+                    </div>
+                </div>
+                <div class="spaceer"></div>
+
+
+                <!--Spawn Structures Section-->
+                <h2>Spawn Structures
+                    <div class="lineThin lineWidthHalf" />
+                </h2>
+                <div class="infoDiv">
+
+                  <!--Photo by obey-->
+                    <div class="aboutImage">
+                        <img src="./emperium-build-one.png">
+                        <h6>Photo by: Obey Juan Cannali</h6>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="spaceer"></div>
+        <div class="spaceer"></div>
+        <!--PVP-->
+        <div id="pvp">
+            <h1>PvP</h1>
+            <div class="line lineWidthQuarter"></div>
+            <div class="spaceer"></div>
+            <h2>Goons In Action
+                <div class="lineThin lineWidthHalf" />
+            </h2>
+            <div class="infoDiv">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/akbvTyD147c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                </iframe>
+            </div>
+
+        </div>
+        <div class="spaceer"></div>
+        <div class="spaceer"></div>
+
+
+
+        <!--Programming-->
+        <div id="programming">
+            <h1>Technical</h1>
+            <div class="line lineWidthQuarter"></div>
+            <div class="spaceer"></div>
+            <h2>Omega Utility
+                <div class="lineThin lineWidthHalf" />
+            </h2>
+            <div class="infoDiv">
+                <div class="aboutImage">
+                    <div id="omegaUtility">
+                        <img src="./omega_utility_menu.png">
+
+                        <div id="repoLinkDiv">
+                            <a href="https://github.com/WalkingLibrary/Omega-Utility-Tutorial">
+                                <img id="gitHubIcon" src="redGitHubIcon.png" />
+
+                            </a>
+                            <h4>Git Hub Repository</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="spaceer"></div>
+    <div class="spaceer"></div>
+    <div id="footer">
+    </div>
+
+    </div>
+    <script src="home.js"></script>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
