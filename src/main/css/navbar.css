@@ -2,6 +2,7 @@
 /*This gets rid of the ugly underline on links and I place it here so its on every page*/
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /*Adds The Yellow Bar on the right
