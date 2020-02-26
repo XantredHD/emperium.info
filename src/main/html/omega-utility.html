@@ -1,0 +1,50 @@
+<html>
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <title>Emperium</title>
+</head>
+
+<body>
+
+    <!--Container of the page-->
+    <!--The Decided Width for this will be 1366px-->
+    <div id="container">
+
+              <!-- Navigation Bar-->
+              <div onmouseover="makeNavBarVisible();" onmouseout="hideNavBar();" id="navbar">
+                  <div id="navbarIcons">
+                      <!--Icons-->
+
+                      <a class="tooltip" href="home.html">
+                          <img id="icon" class="selected" src="./emp_icon.gif">
+                          <span class="tooltiptext">Home Page</span>
+                          </img>
+                      </a>
+                      <!--Link To Omega Utility Page-->
+                      <a class="tooltip" href="omega-utility.html">
+                          <img id="icon" class="notSelected" src="./omegawreathvines.png">
+                          <span class="tooltiptext">Omega Utility</span>
+                          </img>
+                      </a>
+                      <!--Link to Texture Pack Page-->
+                      <a class="tooltip" href="texture-packs.html">
+                          <img id="icon" class="notSelected" src="./pack.png">
+                          <span class="tooltiptext">Texture Packs</span>
+                          </img>
+                      </a>
+                      <!--Discord-->
+                      <a class="tooltip" href="discord-page.html">
+                          <img id="icon" class="notSelected" src="./discord.png">
+                          <span class="tooltiptext">Discord Info</span>
+                          </img>
+                      </a>
+                  </div>
+              </div>
+    </div>
+    <script src="navbar.js"></script>
+</body>
